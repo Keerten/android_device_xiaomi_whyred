@@ -25,6 +25,8 @@
 # Inherit from sdm660-common
 -include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
+BUILD_BROKEN_DUP_RULES := true
+
 DEVICE_PATH := device/xiaomi/whyred
 
 # Boot animation
