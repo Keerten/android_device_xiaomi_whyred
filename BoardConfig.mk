@@ -38,6 +38,10 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 BOARD_HAS_QCA_FM_SOC := cherokee
 BOARD_HAVE_QCOM_FM := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_whyred
+TARGET_RECOVERY_DEVICE_MODULES := libinit_whyred
+
 # Kernel
 TARGET_KERNEL_CONFIG := whyred_defconfig
 
